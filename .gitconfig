@@ -1,0 +1,57 @@
+[user]
+	name = Marco Kunz
+	email = marco.kunz1982@gmail.com
+
+[color]
+	ui = auto
+
+[core]
+	editor = subl -n -w
+
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+
+[alias]
+	# create a new branch
+	br = branch
+
+	# commit stuff
+		;basic commit
+		ci = commit
+		;commit with a message
+		cim = commit -m
+
+	# track the other branch
+	co = checkout
+
+	# show me the diffs
+	df = diff
+
+	# log stuff
+		;list commit history
+		lol = log --graph --decorate --pretty=oneline --abbrev-commit
+		lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
+	# listing stuff
+		;list branches
+		lsbra = branch -a
+
+		;list ignored files
+		lsig = ls-files --other --ignored --exclude-standard
+
+	# merge those branches
+	mg = merge
+
+	# reset stuff
+		;soft reset
+		ouch = reset --soft HEAD~1
+		;hard reset
+		rh = reset --hard
+
+	# give me the status
+	st = status
+
+[branch]
+	autosetupmerge = always
+	autosetuprebase = always
