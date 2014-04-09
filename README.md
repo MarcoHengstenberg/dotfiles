@@ -10,7 +10,7 @@ Yes, I know, the '.osx' is not even a dotfile by design.
 
 ## Handle with care
 
-As all of the funky stuff is working for me, it might not do the same for you. So, feel free to get all of this over to your Mac and use it for good but **pwease** do not come back to me yelling, that my "dotfiles destroyed my computer and set fire to the screen and my wife is pregnant now. WTF!".
+As all of the funky stuff is working for me, it might not do the same for you. So, feel free to get all of this over to your Mac and use it for good but **pwease** do not come back to me yelling, that *"Those dotfiles destroyed my computer and set fire to the screen and my wife is pregnant now. WTF!".
 
 Okay. It might not prove to be that bad but who can be 100% sure?
 
