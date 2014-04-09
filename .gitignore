@@ -1,6 +1,6 @@
 # My wonderful Gitignore Dotfile #
 
-# Here the standards Github provides here:
+# Here the standards Github provides:
 # https://gist.github.com/octocat/9257657
 
 # Compiled source #
@@ -12,7 +12,7 @@
 # *.exe
 # *.o
 # *.so
- 
+
 # Packages #
 # I do not want to commit packed and compressed archives #
 ##########################################################
@@ -24,13 +24,13 @@
 *.rar
 *.tar
 *.zip
- 
+
 # Logs and databases #
 ######################
 *.log
 *.sql
 *.sqlite
- 
+
 # OS generated files #
 ######################
 .DS_Store

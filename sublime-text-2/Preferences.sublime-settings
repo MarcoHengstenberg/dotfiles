@@ -27,6 +27,7 @@
 		"*.obj",
 		"*.o",
 		"*.a",
+		"*.ai",
 		"*.lib",
 		"*.log",
 		"*.so",
@@ -39,7 +40,8 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.pdf"
+		"*.zip",
+		"*.rar",
 	],
 
 	// Soda Theme Stuff

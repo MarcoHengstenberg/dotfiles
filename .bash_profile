@@ -14,7 +14,8 @@ alias meh="
 	open "https://trello.com/";
 	open /Applications/Skype.app;
 	open /Applications/Sublime\ Text\ 2.app;
-	open /Applications/Pastor.app;"
+	open /Applications/Pastor.app;
+  echo "Wonderful. You are good to go. Have a nice day.""
 
 ## The "Let's get Gaming" Version
 alias yay="open /Applications/Battle.net.app;"
