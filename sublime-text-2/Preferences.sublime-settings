@@ -1,0 +1,58 @@
+{
+	// Overall color scheme
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+
+	// Overall font settings
+	"font_face": "Monaco",
+	"font_size": 15.0,
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"bold_folder_labels": true,
+
+	// Stuff to be ignored
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		".tags*",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.log",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.pdf"
+	],
+
+	// Soda Theme Stuff
+	"soda_classic_tabs": true,
+	"soda_folder_icons": true,
+
+	// Make Sublime Text behave
+	"highlight_modified_tabs": true,
+	"scroll_past_end": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"open_files_in_new_window": true,
+	"create_window_at_startup": false,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "auto"
+}
