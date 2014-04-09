@@ -43,6 +43,9 @@ defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 # I empty my trash in a secure way - ecofriendly y'know
 defaults write com.apple.finder EmptyTrashSecurely -bool true
 
+# Remember to kill the finder to make some of the changes go live
+killall Finder
+
 
 ## Dock Stuff
 
@@ -89,3 +92,6 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 # Sort Activity Monitor results by CPU usage
 defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
 defaults write com.apple.ActivityMonitor SortDirection -int 0
+
+
+## Some changes might require the computer to be restarted!

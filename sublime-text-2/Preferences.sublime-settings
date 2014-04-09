@@ -53,8 +53,17 @@
 	"scroll_past_end": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
+
+	// prevent Sublime from opening single files in project windows
 	"open_files_in_new_window": true,
+
+	// when starting Sublime Text with no previously files/projects worked on
 	"create_window_at_startup": false,
+
+	// when saving files
 	"trim_trailing_white_space_on_save": true,
+	"ensure_newline_at_eof_on_save": true,
+
+	// always wrap - not an option
 	"word_wrap": "auto"
 }
