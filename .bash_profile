@@ -4,6 +4,11 @@
 ###################################################
 
 ###################################################
+# Everytime I change this file I need to source   #
+###################################################
+alias sbash='source .bash_profile'
+
+###################################################
 # Getting started in the morning                  #
 ###################################################
 
@@ -15,10 +20,6 @@ alias meh="
   open /Applications/Skype.app;
   open /Applications/Sublime\ Text\ 2.app;
   open /Applications/Pastor.app;"
-
-## The "Let's get Gaming" Version
-# alias yay="open /Applications/Battle.net.app;"
-# unfortunately this doesn't work for the Battle.net.app
 
 ###################################################
 # Launching apps being used very often            #
