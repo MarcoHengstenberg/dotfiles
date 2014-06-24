@@ -20,7 +20,7 @@ Okay. It might not prove to be that bad but who can be 100% sure?
 
 To optimize workflows and to make terminal on OSX a wee bit better, I added a lot of aliases. At the very bottom I sourced a `.bash_work` file which is to be kept away from the public because you are a nasty spy trying to get onto other people's servers and mess with things.
 
-Yes, I am looking at you, now, dear reader! **( Ô_o)==-**
+Yes, I am looking at you, now, dear reader! **( Ô_o)**
 
 #### `.gitconfig`
 
