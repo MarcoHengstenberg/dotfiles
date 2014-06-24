@@ -63,6 +63,9 @@ alias .6='cd ../../../../../../'
 # (with invisibles)
 alias f='open -a Finder ./'
 
+# Add colors to lists
+alias ls='ls -Glah'
+
 # Mac stuff
 # Show hidden files or do not show hidden files
 # in Finder of course
