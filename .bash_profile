@@ -26,7 +26,7 @@ alias meh="
 ###################################################
 
 ## Start only Firefox
-alias fire="open /Applications/Firefox.app;"
+alias fire="open /Applications/Firefox.app"
 ## Start Filezilla
 alias fizi="open /Applications/Filezilla.app"
 ## Start Photoshop
@@ -42,6 +42,10 @@ alias music="open /Applications/iTunes.app"
 # cd to my Git directory aka "Go Git 'em Tiger!"
 # See .gitconfig for the aliases to work with Git
 alias gogitem="cd Sites/Git/"
+
+# Ignore a file completely from development cycles
+alias au='git update-index --assume-unchanged'
+alias nau='git update-index --no-assume-unchanged'
 
 ###################################################
 # Better Terminal                                 #
@@ -83,6 +87,14 @@ alias zzz="pmset sleepnow"
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 # Show the local IP Address
 alias localip="ipconfig getifaddr en1"
+
+# History is a good thing - mostly
+# Erase duplicates in history
+export HISTCONTROL=erasedups
+
+# Empty the Trash on all mounted volumes and the main HDD
+# Also, clear Apple’s System Logs to improve shell startup speed
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
 
 
 ###################################################
