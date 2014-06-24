@@ -51,7 +51,11 @@
 		rh = reset --hard
 
 	# give me the status
-	st = status
+		st = status
+
+	# Ignore a file completely from development cycles
+		au = git update-index --assume-unchanged
+		nau = git update-index --no-assume-unchanged
 
 [branch]
 	autosetupmerge = always

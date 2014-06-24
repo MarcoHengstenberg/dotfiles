@@ -31,6 +31,8 @@ alias fire="open /Applications/Firefox.app;"
 alias fizi="open /Applications/Filezilla.app"
 ## Start Photoshop
 alias chop="open /Applications/Adobe\ Photoshop\ CS6/AdobePhotoshopCS6.app"
+## Start iTunes
+alias music="open /Applications/iTunes.app"
 
 ###################################################
 # Get started with developing                     #
@@ -40,10 +42,6 @@ alias chop="open /Applications/Adobe\ Photoshop\ CS6/AdobePhotoshopCS6.app"
 # cd to my Git directory aka "Go Git 'em Tiger!"
 # See .gitconfig for the aliases to work with Git
 alias gogitem="cd Sites/Git/"
-
-# Ignore a file completely from development cycles
-alias au='git update-index --assume-unchanged'
-alias nau='git update-index --no-assume-unchanged'
 
 ###################################################
 # Better Terminal                                 #
