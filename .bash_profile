@@ -1,44 +1,56 @@
 ###################################################
-# The wonderful bash profile of Marco Kunz				#
+# The wonderful bash profile of Marco Kunz        #
 # If you don't like shortcuts, you're not german  #
 ###################################################
 
 ###################################################
-# Get started in the morning											#
+# Getting started in the morning                  #
 ###################################################
 
 ## The "At Work" Version
 alias meh="
-	open /Applications/Mail.app;
-	open "https://github.com/";
-	open "https://trello.com/";
-	open /Applications/Skype.app;
-	open /Applications/Sublime\ Text\ 2.app;
-	open /Applications/Pastor.app;
-  echo "Wonderful. You are good to go. Have a nice day.""
+  open /Applications/Mail.app;
+  open "https://github.com/";
+  open "https://trello.com/";
+  open /Applications/Skype.app;
+  open /Applications/Sublime\ Text\ 2.app;
+  open /Applications/Pastor.app;"
 
 ## The "Let's get Gaming" Version
-alias yay="open /Applications/Battle.net.app;"
+# alias yay="open /Applications/Battle.net.app;"
+# unfortunately this doesn't work for the Battle.net.app
 
 ###################################################
-# Launching apps being used very often						#
+# Launching apps being used very often            #
 ###################################################
 
-## Start only Firefox															#
+## Start only Firefox
 alias fire="open /Applications/Firefox.app;"
-## Start Filezilla																#
+## Start Filezilla
 alias fizi="open /Applications/Filezilla.app"
-## Start Photoshop																#
+## Start Photoshop
 alias chop="open /Applications/Adobe\ Photoshop\ CS6/AdobePhotoshopCS6.app"
 
 ###################################################
-# Get started with developing											#
+# Get started with developing                     #
 ###################################################
 
-#	Move around the computer												#
-# cd to my Git directory aka "Go Git 'em Tiger!"	#
-# See .gitconfig for the aliases to work with Git #
+# Move around the computer
+# cd to my Git directory aka "Go Git 'em Tiger!"
+# See .gitconfig for the aliases to work with Git
 alias gogitem="cd Sites/Git/"
+
+# Ignore a file completely from development cycles
+alias au='git update-index --assume-unchanged'
+alias nau='git update-index --no-assume-unchanged'
+
+###################################################
+# Better Terminal                                 #
+###################################################
+
+# Clearing the console
+alias cl='clear'
+
 # Going up
 alias cd..='cd ../'
 alias ..='cd ../'
@@ -61,7 +73,7 @@ alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && 
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 # Delete all .DS_Store files - and do it recursively
 alias cleanupDS="find . -type f -name '*.DS_Store' -ls -delete"
-# Set Mac to sleep. "Go home Mac! You're drunk!"	#
+# Set Mac to sleep. "Go home Mac! You're drunk!"
 alias zzz="pmset sleepnow"
 
 # IP Stuff
@@ -72,7 +84,7 @@ alias localip="ipconfig getifaddr en1"
 
 
 ###################################################
-# Web Development																	#
+# Web Development                                 #
 ###################################################
 
 # Start the watch task of Grunt anywhere
@@ -92,6 +104,6 @@ alias edithosts='sudo subl /etc/hosts'
 alias editvhosts="sudo subl /etc/apache2/extra/httpd-vhosts.conf"
 
 ###################################################
-# Connecting with Smashing Servers								#
+# Connecting with Smashing Servers                #
 ###################################################
 source .bash_work
