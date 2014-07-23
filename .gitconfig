@@ -29,6 +29,9 @@
 	# show me the diffs
 	df = diff
 
+	# show me the diff between the latest commit and the current state
+	dilacur = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat"
+
 	# log stuff
 		;list commit history
 		lol = log --graph --decorate --pretty=oneline --abbrev-commit
