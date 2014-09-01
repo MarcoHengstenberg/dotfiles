@@ -62,6 +62,7 @@ alias .3='cd ../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
 alias .6='cd ../../../../../../'
+
 # Open the current directory in Finder
 # (with invisibles)
 alias f='open -a Finder ./'
@@ -96,11 +97,18 @@ export HISTCONTROL=erasedups
 # Also, clear Apple’s System Logs to improve shell startup speed
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
 
+# Looking for updates with a single command is beautiful
+# We are updating Homebrew, NPM and our Mac OS with this
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; npm update npm -g; npm update -g'
 
 ###################################################
 # Web Development                                 #
 ###################################################
 
+# Open Stuff in Sublime Text
+alias s="subl"
+# Gitting
+alias g="git"
 # Start the watch task of Grunt anywhere
 alias gruwa="grunt watch"
 # Apache related stuff
