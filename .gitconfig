@@ -29,6 +29,9 @@
 	# show me the diffs
 	df = diff
 
+	# push all recent commits
+	pu = push
+
 	# show me the diff between the latest commit and the current state
 	dilacur = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat"
 
