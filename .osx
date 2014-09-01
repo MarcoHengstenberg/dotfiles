@@ -1,5 +1,8 @@
-# This file is created to keep track
-# of customizations I like with OSX
+########################################################################
+#                                                                      #
+# This file is created to keep track of customizations I like with OSX #
+#                                                                      #
+########################################################################
 
 # Simply copypasta the uncommented lines into terminal and hit enter
 
@@ -93,5 +96,17 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
 defaults write com.apple.ActivityMonitor SortDirection -int 0
 
+## Misc
+# Save screenshots in PNG format - always
+defaults write com.apple.screencapture type -string "png"
+
+# Disable shadow in screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
+
+# Enable subpixel font rendering on non-Apple LCDs
+defaults write NSGlobalDomain AppleFontSmoothing -int 2
+
+# Enable HiDPI display modes (requires restart)
+sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
 
 ## Some changes might require the computer to be restarted!
