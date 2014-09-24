@@ -37,3 +37,7 @@ This is just a set of colors thrown at Terminal.app to make it beautiful. *I* li
 #### `Sublime-Text-2`
 
 In this folder you will find my preferences file for Sublime Text 2.
+
+#### `.csslintrc`
+
+I set this file up to my personal liking and whenever I got the time, I will explain the *why* right here.
