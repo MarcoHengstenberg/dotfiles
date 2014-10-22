@@ -30,7 +30,7 @@ alias fire="open /Applications/Firefox.app"
 ## Start Filezilla
 alias fizi="open /Applications/Filezilla.app"
 ## Start Photoshop
-alias chop="open /Applications/Adobe\ Photoshop\ CS6/AdobePhotoshopCS6.app"
+alias chop="open /Applications/Adobe Photoshop CC 2014/Adobe Photoshop CC 2014.app"
 ## Start iTunes
 alias music="open /Applications/iTunes.app"
 
@@ -124,6 +124,10 @@ alias apachelogs="less +F /var/log/apache2/error_log"
 alias edithosts='sudo subl /etc/hosts'
 # Make changes to your vhosts file
 alias editvhosts="sudo subl /etc/apache2/extra/httpd-vhosts.conf"
+# Create a new public key
+alias createkey="ssh-keygen -b 8192"
+# Show me the public key
+alias showkey="cat ~/.ssh/id_rsa.pub"
 
 ###################################################
 # Connecting with Smashing Servers                #
