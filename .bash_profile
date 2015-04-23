@@ -51,6 +51,14 @@ alias nau='git update-index --no-assume-unchanged'
 # Better Terminal                                 #
 ###################################################
 
+# “What was that alias again?” Meta!
+alias aliases="c ~/.dotfiles/bash/bash_aliases"
+
+# Use the string that has already been typed as the prefix for searching
+# through commands (i.e. more intelligent Up/Down behavior)
+"\e[B": history-search-forward
+"\e[A": history-search-backward
+
 # Clearing the console
 alias cl='clear'
 
@@ -109,6 +117,8 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; npm update n
 alias s="subl"
 # Gitting
 alias g="git"
+# Open any files marked as “modified” in your default editor.
+alias changed='open `git status --porcelain | sed -ne "s/^ M //p"`'
 # Start the watch task of Grunt anywhere
 alias gruwa="grunt watch"
 # Apache related stuff
