@@ -52,12 +52,7 @@ alias nau='git update-index --no-assume-unchanged'
 ###################################################
 
 # “What was that alias again?” Meta!
-alias aliases="c ~/.dotfiles/bash/bash_aliases"
-
-# Use the string that has already been typed as the prefix for searching
-# through commands (i.e. more intelligent Up/Down behavior)
-"\e[B": history-search-forward
-"\e[A": history-search-backward
+alias aliases="s .bash_profile"
 
 # Clearing the console
 alias cl='clear'
