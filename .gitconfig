@@ -59,6 +59,9 @@
 		;hard reset
 		rh = reset --hard
 
+	# Add untracked, remove deleted, and show status
+    adda = !git add -A && git status
+
 	# give me the status
 		st = status
 
