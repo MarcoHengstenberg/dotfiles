@@ -40,4 +40,4 @@ In this folder you will find my preferences file for Sublime Text 2.
 
 #### `.csslintrc`
 
-I set this file up to my personal liking and whenever I got the time, I will explain the *why* right here.
+For most detailed explanations on what does what and why I'd suggest you may take a look at the [CSSLint Wiki](https://github.com/CSSLint/csslint/wiki). There you will find a wonderfully detailed documentation on the many different features and what's being linted.
