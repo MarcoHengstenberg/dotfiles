@@ -35,6 +35,9 @@
 	# push only current branch
 	pucur = push origin HEAD
 
+	# Pull from master
+	pom = pull origin master
+
 	# show me the diff between the latest commit and the current state
 	dilacur = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat"
 
