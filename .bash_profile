@@ -6,7 +6,7 @@
 ###################################################
 # Everytime I change this file I need to source   #
 ###################################################
-alias sbash='source .bash_profile'
+alias sbash="source .bash_profile"
 
 ###################################################
 # Getting started in the morning                  #
@@ -30,9 +30,11 @@ alias fire="open /Applications/Firefox.app"
 ## Start Filezilla
 alias fizi="open /Applications/Filezilla.app"
 ## Start Photoshop
-alias chop="open /Applications/Adobe Photoshop CC 2014/Adobe Photoshop CC 2014.app"
+alias chop="open /Applications/Adobe\ Photoshop\ CC\ 2014/Adobe\ Photoshop\ CC\ 2014.app"
 ## Start iTunes
 alias music="open /Applications/iTunes.app"
+## Start Pastor
+alias pass="open /Applications/Pastor.app"
 
 ###################################################
 # Get started with developing                     #
@@ -118,7 +120,7 @@ alias changed='open `git status --porcelain | sed -ne "s/^ M //p"`'
 alias gruwa="grunt watch"
 # Apache related stuff
 # Make changes to the apache configuration
-alias apacheedit='sudo subl /etc/httpd/httpd.conf'
+alias apacheedit='sudo subl /etc/apache2/httpd.conf'
 # Restart apache afterwards to make it see those
 # changes you made
 alias apacherestart='sudo apachectl graceful'
@@ -133,6 +135,11 @@ alias editvhosts="sudo subl /etc/apache2/extra/httpd-vhosts.conf"
 alias createkey="ssh-keygen -b 8192"
 # Show me the public key
 alias showkey="cat ~/.ssh/id_rsa.pub"
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
 
 ###################################################
 # Connecting with Smashing Servers                #
