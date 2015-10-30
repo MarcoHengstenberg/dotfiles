@@ -68,6 +68,17 @@ alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
 alias .6='cd ../../../../../../'
 
+# Taking the elevator thanks to https://github.com/Lykathia
+elevator () {
+    svn info &> /dev/null
+    if [ $? -eq 0 ]; then
+        cd `svn info | grep 'Working Copy' | sed 's|Working Copy Root Path: \(.*\)$|\1|g'`
+    else
+        cd $(git rev-parse --show-toplevel)
+    fi
+}
+alias elv="elevator"
+
 # Open the current directory in Finder
 # (with invisibles)
 alias f='open -a Finder ./'
