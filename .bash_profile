@@ -30,7 +30,7 @@ alias fire="open /Applications/Firefox.app"
 ## Start Filezilla
 alias fizi="open /Applications/Filezilla.app"
 ## Start Photoshop
-alias chop="open /Applications/Adobe\ Photoshop\ CC\ 2014/Adobe\ Photoshop\ CC\ 2014.app"
+alias chop="open /Applications/Adobe\ Photoshop\ CC\ 2015/Adobe\ Photoshop\ CC\ 2015.app"
 ## Start iTunes
 alias music="open /Applications/iTunes.app"
 ## Start Pastor
@@ -54,7 +54,7 @@ alias nau='git update-index --no-assume-unchanged'
 ###################################################
 
 # “What was that alias again?” Meta!
-alias aliases="s .bash_profile"
+alias aliases="sublime .bash_profile"
 
 # Clearing the console
 alias cl='clear'
@@ -111,7 +111,7 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; npm update n
 ###################################################
 
 # Open Stuff in Sublime Text
-alias s="subl"
+alias s="sublime"
 # Gitting
 alias g="git"
 # Open any files marked as “modified” in your default editor.
@@ -120,7 +120,7 @@ alias changed='open `git status --porcelain | sed -ne "s/^ M //p"`'
 alias gruwa="grunt watch"
 # Apache related stuff
 # Make changes to the apache configuration
-alias apacheedit='sudo subl /etc/apache2/httpd.conf'
+alias apacheedit='sudo sublime /etc/apache2/httpd.conf'
 # Restart apache afterwards to make it see those
 # changes you made
 alias apacherestart='sudo apachectl graceful'
@@ -128,18 +128,15 @@ alias apacherestart='sudo apachectl graceful'
 alias apachelogs="less +F /var/log/apache2/error_log"
 # Host files
 # Make changes to your hosts file
-alias edithosts='sudo subl /etc/hosts'
+alias edithosts='sudo sublime /etc/hosts'
 # Make changes to your vhosts file
-alias editvhosts="sudo subl /etc/apache2/extra/httpd-vhosts.conf"
+alias editvhosts="sudo sublime /etc/apache2/extra/httpd-vhosts.conf"
 # Create a new public key
 alias createkey="ssh-keygen -b 8192"
 # Show me the public key
 alias showkey="cat ~/.ssh/id_rsa.pub"
-
-# Setting PATH for Python 2.7
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
+# Make .gitconfig in ~ global
+alias gignore="git config --global core.excludesfile ~/.gitignore"
 
 ###################################################
 # Connecting with Smashing Servers                #

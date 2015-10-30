@@ -14,6 +14,8 @@ As all of the funky stuff is working for me, it might not do the same for you. S
 
 Okay. It might not prove to be that bad but who can be 100% sure?
 
+**Update:** Now that I upgraded (finally) to El Capitan and all is running smoothly, here's the updated `.bash_profile` for that system. Not much changed, you'll see. I sense a few additions in terms of aliases though and I might add `open "https://slack.com/";` to the *meh* task, as we're slowly but surely moving away from Skype as our main chat-app at the office.
+
 ## What's in this for me
 
 #### `.bash_profile`
