@@ -67,6 +67,7 @@ alias .3='cd ../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
 alias .6='cd ../../../../../../'
+alias ~='cd ~'
 
 # Taking the elevator thanks to https://github.com/Lykathia
 elevator () {
