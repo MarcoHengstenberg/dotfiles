@@ -45,6 +45,7 @@
 		;list commit history
 		lol = log --graph --decorate --pretty=oneline --abbrev-commit
 		lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+		slog = shortlog -sn
 
 	# listing stuff
 		;list branches
