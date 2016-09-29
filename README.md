@@ -14,6 +14,10 @@ As all of the funky stuff is working for me, it might not do the same for you. S
 
 Okay. It might not prove to be that bad but who can be 100% sure?
 
+## Changelog
+
+**Update (29.09.2016):** As I altered a few settings in my Sublime Text preferences and chose a completely new color theme… well, here you go. An update to show you how I like my editor to look and feel. More details in the comments: [go to the settings file](https://github.com/MarcoHengstenberg/dotfiles/blob/master/sublime-text-2/Preferences.sublime-settings)
+
 **Update:** Now that I upgraded (finally) to El Capitan and all is running smoothly, here's the updated `.bash_profile` for that system. Not much changed, you'll see. I sense a few additions in terms of aliases though and I might add `open "https://slack.com/";` to the *meh* task, as we're slowly but surely moving away from Skype as our main chat-app at the office.
 
 **Another Update:** Thanks to Lykathia I now can take the elevator when I want to go to the root directory of any Github project I'm working with. [See the `.bash_profile`](https://github.com/MarcoHengstenberg/dotfiles/blob/master/.bash_profile).
@@ -45,3 +49,7 @@ In this folder you will find my preferences file for Sublime Text 2.
 #### `.csslintrc`
 
 For most detailed explanations on what does what and why I'd suggest you may take a look at the [CSSLint Wiki](https://github.com/CSSLint/csslint/wiki). There you will find a wonderfully detailed documentation on the many different features and what's being linted.
+
+#### My Sublime Text Preferences/Settings
+
+You can spend endless hours on making Sublime Text look and feel like the editor you always wanted to have. I found my way of setting things up the way I want to thanks to trying a lot of things out on my own and thanks to [Wes](https://github.com/wesbos), who also wrote the [current color theme](https://github.com/wesbos/cobalt2/) I'm using.
