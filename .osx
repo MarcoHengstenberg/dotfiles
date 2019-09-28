@@ -25,9 +25,6 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 # Disable auto-correct - if you're good at grammer <-- see what I did there
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
-# Enable subpixel font rendering on non-Apple LCDs
-defaults write NSGlobalDomain AppleFontSmoothing -int 2
-
 
 ## Finder Stuff
 
