@@ -16,6 +16,10 @@ Okay. It might not prove to be that bad but who can be 100% sure?
 
 ## Changelog
 
+**Update (28.09.2019):** "Hell it's about time!" Finally came around to update my dotfiles ever so slightly again. Sublime Text 3 settings changed and installed packages being added. Remove the CSSLint config as I totally am not using that anymore – psh. The `.bash_profile` has been cleaned up and altered a little. Few additions been made too.
+
+By the way **"Fira Code Retina"** is so worth a try people! I love it to bits.
+
 **Update (29.09.2016):** As I altered a few settings in my Sublime Text preferences and chose a completely new color theme… well, here you go. An update to show you how I like my editor to look and feel. More details in the comments: [go to the settings file](https://github.com/MarcoHengstenberg/dotfiles/blob/master/sublime-text-2/Preferences.sublime-settings)
 
 **Update:** Now that I upgraded (finally) to El Capitan and all is running smoothly, here's the updated `.bash_profile` for that system. Not much changed, you'll see. I sense a few additions in terms of aliases though and I might add `open "https://slack.com/";` to the *meh* task, as we're slowly but surely moving away from Skype as our main chat-app at the office.

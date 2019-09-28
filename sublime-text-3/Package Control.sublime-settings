@@ -1,0 +1,18 @@
+{
+    "bootstrapped": true,
+    "in_process_packages":
+    [
+    ],
+    "installed_packages":
+    [
+        "Color Highlighter",
+        "CSS Extended Completions",
+        "CSS3",
+        "eZ Publish Syntax",
+        "LESS",
+        "Package Control",
+        "SCSS",
+        "Syntax Highlighting for Sass",
+        "Theme - Cobalt2"
+    ]
+}
