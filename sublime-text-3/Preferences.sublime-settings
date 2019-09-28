@@ -1,0 +1,65 @@
+{
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 3,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+	"create_window_at_startup": false,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		".tags*",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.ai",
+		"*.lib",
+		"*.log",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.zip",
+		"*.rar"
+	],
+	"font_face": "Fira Code Retina",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 15.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"open_files_in_new_window": true,
+	"scroll_past_end": true,
+	"tab_size": 4,
+	"theme": "Cobalt2.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true,
+	"word_wrap": "auto"
+}
